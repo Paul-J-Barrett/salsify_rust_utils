@@ -13,7 +13,10 @@ async fn main() ->Result<(),Box<dyn Error>> {
     let orgid=testlib::get_org_id().unwrap().to_str().unwrap().to_string();
     println!("Token length: {}, OrgID Len: {}",tok.len(), orgid.len());
 
-    tes
+    let cond=Conditions {};
+    
+    let mut req=Report_Request {};
+    
 
 
 
