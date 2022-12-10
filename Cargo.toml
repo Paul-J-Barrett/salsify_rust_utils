@@ -20,8 +20,8 @@ members = [
 "exportDigitalAssets",
 "exportProducts",
 "exportSalsifyIds",
-"testlib"
+"salsify_lib"
 ]
 
 [dependencies]
-testlib = { path = "testlib"}
+salsify_lib = { path = "salsify_lib"}
