@@ -1,0 +1,27 @@
+[package]
+name = "salsify_rust_utils"
+version = "0.1.0"
+edition = "2021"
+authors = ["Paul J Barrett barrettpaulj@gmail.com"]
+
+[[bin]]
+name = "exportSalsifyIds"
+path = "exportSalsifyIds/src/main.rs"
+test = true
+bench = false
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+members = [
+"deleteProducts",
+"exportAttributes",
+"exportAttribute_values",
+"exportDigitalAssets",
+"exportProducts",
+"exportSalsifyIds",
+"testlib"
+]
+
+[dependencies]
+testlib = { path = "testlib"}
