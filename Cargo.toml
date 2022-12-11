@@ -23,5 +23,9 @@ members = [
 "salsify_lib"
 ]
 
+default-members = [
+  "exportSalsifyIds"
+]
+
 [dependencies]
 salsify_lib = { path = "salsify_lib"}
